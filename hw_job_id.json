@@ -1,0 +1,11 @@
+{
+  "wall_time": "2026-07-19T20:10:24Z",
+  "weights": "results_tier1_noisy_hybrid_noent_qlabels_s8281.pt",
+  "entangle": false,
+  "seed": 8281,
+  "shots": 1024,
+  "n_samples": 200,
+  "mode": "hardware",
+  "mitigation": "resilience=1, DD=XpXm (set directly)",
+  "job_id": "d9eiudineu4c739ogncg"
+}

@@ -1,0 +1,8 @@
+# Pin before any paid hardware run (DESIGN.md §8 — API drift risk)
+torch>=2.3
+pennylane>=0.38
+pennylane-qiskit>=0.38
+qiskit>=1.2
+qiskit-aer>=0.15
+qiskit-ibm-runtime>=0.30
+scikit-learn>=1.4
