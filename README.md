@@ -85,11 +85,14 @@ quantum-causality line:
 - IRMB Design 5 — Multi-Agent Dataset Build:
   https://github.com/billyrdavis1985-bot/IRMB_Design5_Dataset_MultiAgent_Build
 
-The QPU Drift Collector (Raspberry Pi 5, hourly ibm_fez / ibm_marrakesh
-calibration telemetry) that made the noise models and chain selection
-possible runs continuously as IRMB infrastructure.
+The [QPU Drift Collector](https://github.com/billyrdavis1985-bot/qpu-drift-collector)
+(Raspberry Pi 5, hourly ibm_fez / ibm_marrakesh calibration telemetry) that
+made the noise models and chain selection possible runs continuously as IRMB
+infrastructure. The 389-snapshot archive used for chain selection and noise
+modeling in this study came from that collector.
 
 ## License
 
 MIT (code). Independent Research in Multi-agent Benchmarking (IRMB),
 Hudson Forge Technologies LLC — self-funded.
+
