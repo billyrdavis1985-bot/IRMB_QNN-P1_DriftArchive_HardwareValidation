@@ -1,0 +1,43 @@
+{
+  "config": {
+    "quantum": {
+      "n_qubits": 8,
+      "n_layers": 3,
+      "shots": 1024,
+      "init_scale": 0.05,
+      "initial_layout": [
+        125,
+        124,
+        123,
+        136,
+        143,
+        142,
+        141,
+        140
+      ]
+    },
+    "classical": {
+      "input_dim": 30,
+      "encoder_hidden": 64,
+      "n_classes": 2
+    },
+    "train": {
+      "epochs": 10,
+      "batch_size": 16,
+      "lr": 0.005,
+      "seed": 2002,
+      "grad_norm_log_every": 10,
+      "spsa_steps": 50,
+      "spsa_a": 0.05,
+      "spsa_c": 0.1
+    },
+    "hardware": {
+      "backend_name": "ibm_fez",
+      "resilience_level": 1,
+      "enable_dynamical_decoupling": true,
+      "dd_sequence": "XpXm",
+      "calibration_snapshot": "exports\\ibm_fez_2026-07-15T014954-0400_converted.json"
+    }
+  },
+  "sha256": "9a43bf4958719687beffb337c7500d22581d63af3f644111e6a199dc8917d43e"
+}

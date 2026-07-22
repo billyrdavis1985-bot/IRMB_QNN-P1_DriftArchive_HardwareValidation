@@ -1,0 +1,27 @@
+{
+    "run_id":  "2026-07-19_A_entangled_s8281",
+    "project":  "QNN-P1 Drift-Archive Hardware Validation",
+    "project_scope":  "Pilot calibration and methods-development study supporting QEC and Design 6 planning",
+    "experiment_arm":  "A",
+    "model":  "hybrid_qnn",
+    "entanglement":  true,
+    "seed":  8281,
+    "backend":  "ibm_fez",
+    "shots":  1024,
+    "test_samples":  200,
+    "hardware_accuracy":  0.785,
+    "hardware_job_id":  "d9eipdineu4c739ogic0",
+    "calibration_time":  "2026-07-19 14:45:49-04:00",
+    "mitigation":  "resilience=1, DD=XpXm (set directly)",
+    "checkpoint_sha256":  "D437BBC69A912E4469B4D28DB52696E45660110E68AE5ACAF7C7036875937F7A",
+    "source_commit":  "f4aed02294f504a67f100dc6cb6651ed96325ef4",
+    "status":  "completed",
+    "artifacts":  {
+                      "hardware_result":  "hardware_result.json",
+                      "tier1_training_result":  "tier1_training_result.json",
+                      "tier1_reevaluation":  "tier1_reeval4096.json",
+                      "direct_dryrun":  "direct_dryrun.json",
+                      "hardware_probe":  "hardware_probe.json",
+                      "experiment_config":  "experiment_config.json"
+                  }
+}

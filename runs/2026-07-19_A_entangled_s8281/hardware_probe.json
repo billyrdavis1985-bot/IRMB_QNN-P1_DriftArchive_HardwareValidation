@@ -1,0 +1,11 @@
+{
+  "wall_time": "2026-07-18T21:20:49Z",
+  "backend": "ibm_fez",
+  "shots": 4096,
+  "weights": "results_tier1_noisy_hybrid_qlabels_s8281.pt",
+  "entangle": true,
+  "seed": 8281,
+  "limit": 4,
+  "calibration_time": "2026-07-18 15:43:31-04:00",
+  "test_acc_hardware": 0.75
+}
