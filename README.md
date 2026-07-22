@@ -162,6 +162,36 @@ This pilot does **not** establish:
 * Calibration timing irrelevance across devices or tasks.
 * Generalization beyond the tested task, seed, backend, architecture, and physical chain.
 
+* ## Repository map
+
+### Experimental implementation
+
+- [`qnn/train.py`](qnn/train.py) — Tier 0 and Tier 1 training
+- [`qnn/model.py`](qnn/model.py) — Models A, B, and C
+- [`qnn/circuits.py`](qnn/circuits.py) — variational quantum circuit
+- [`qnn/noise.py`](qnn/noise.py) — archive-derived noise models and chain scoring
+- [`qnn/eval_hardware_direct.py`](qnn/eval_hardware_direct.py) — direct IBM Runtime hardware evaluation
+- [`qnn/preflight.py`](qnn/preflight.py) — snapshot, chain, and transpilation checks
+- [`qnn/config.py`](qnn/config.py) — experiment configuration and fingerprints
+- [`qnn/datasets.py`](qnn/datasets.py) — fixed quantum-label dataset generator
+
+### Research records
+
+- [`PREREGISTRATION.md`](PREREGISTRATION.md) — locked endpoints and deviations
+- [`REPRODUCE.md`](REPRODUCE.md) — reproduction commands
+- [`DESIGN.md`](DESIGN.md) — architecture and experimental rationale
+- [`runs/`](runs/) — immutable A and C hardware evidence packages
+
+- ### Tested environment
+
+- Python 3.11.9
+- Windows 10 and PowerShell
+- Qiskit 2.3.0
+- Qiskit Aer 0.17.2
+- Qiskit IBM Runtime 0.45.1
+- PennyLane 0.45.1
+- PyTorch 2.10.0
+
 ## IRMB program context
 
 QNN-P1 shares infrastructure and methodology with the IRMB quantum-causality research line:
