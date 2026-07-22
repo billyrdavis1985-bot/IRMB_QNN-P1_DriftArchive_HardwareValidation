@@ -1,0 +1,8 @@
+{
+  "weights": "results_tier1_noisy_hybrid_qlabels_s8281.pt",
+  "snapshot": "exports\\ibm_fez_runday_snapshot_converted.json",
+  "shots": 4096,
+  "seed": 8281,
+  "entangle": true,
+  "test_acc_fullshot": 0.78
+}

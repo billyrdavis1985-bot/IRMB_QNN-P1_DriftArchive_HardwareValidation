@@ -1,0 +1,10 @@
+{
+  "wall_time": "2026-07-19T13:23:48Z",
+  "weights": "results_tier1_noisy_hybrid_qlabels_s8281.pt",
+  "entangle": true,
+  "seed": 8281,
+  "shots": 4096,
+  "n_samples": 200,
+  "mode": "dry-run",
+  "test_acc": 0.785
+}
