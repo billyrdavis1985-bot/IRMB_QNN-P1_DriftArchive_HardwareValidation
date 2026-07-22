@@ -6,3 +6,5 @@ exports/
 results_*.json
 config_*.json
 *.zip
+
+*.code-workspace
